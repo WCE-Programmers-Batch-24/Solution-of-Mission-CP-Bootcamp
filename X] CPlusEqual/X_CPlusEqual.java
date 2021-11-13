@@ -22,7 +22,7 @@ package codeforces;
 		// 1) a+b , b
 		// 2) a, a+b
 		
-		// as a + b are is in both case.. next sum depends on a or b
+		// as a + b is same in both cases.. next sum depends on a or b
 		// so we keep larger number of a and b and change smaller number
 		
 		// Eg. 4, 5 ==> 9, 5 or 4, 9 ==> we'll take 9, 5 as it'll give more sum next time
