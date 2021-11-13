@@ -80,27 +80,7 @@ public class C_Dragons
 		    });
 	}
 		
-	static int lower_bound(int arr[], int key)
-	{
-		int pos = Arrays.binarySearch(arr, key) ;
-	    if (pos < 0)
-	    {
-	    	pos = -(pos + 1) ;
-	    }
-	    return pos ;
-			
-	}
-		
-	static int upper_bound(int arr[], int key)
-	{
-		int pos = Arrays.binarySearch(arr, key) ;
-		pos++ ;
-		if (pos < 0)
-		{
-			pos = -(pos) ;
-		}
-		return pos ;
-	}
+	
 		
 		
 	static class FastReader {
