@@ -49,7 +49,6 @@ public class C_Dragons
 		
 	public static void main(String[] args) 
 	{
-		System.out.println();
 	      int t = 1;
 	      while (t-- > 0)
 	      {
